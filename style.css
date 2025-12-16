@@ -15,11 +15,6 @@ nav {
 
 }
 
-.navbar .container {
-    display: flex;
-    justify-content: space-between;
-}
-
 .navbar-brand {
     font-weight: 600;
     font-family: "Mozilla Text", sans-serif;
@@ -33,7 +28,6 @@ nav {
 .navbar-nav{
     font-style: normal;
     font-weight: 350;
-    /* color: #555; */
     gap: 4px;
 }
 
@@ -94,12 +88,6 @@ nav {
     color: #555;
 }
 
-.about .container .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 /* Skill section */
 .bg-light .container h2 {
     text-align: center;
@@ -131,12 +119,6 @@ nav {
     font-size: 1.2rem;
     color: #3f3d3d;
     text-align: center;
-}
-
-.py-5 .container .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .py-5 .container .row .card-text {
