@@ -10,7 +10,7 @@ nav {
     width: 100%;
     position: sticky !important;
     top: 0;
-    z-index: 1020;   
+    z-index: 1020;
     box-shadow: 2px 1px 2px rgb(210, 205, 205);
 
 }
@@ -25,16 +25,18 @@ nav {
     color: rgb(20, 94, 169);
     text-decoration: underline;
 }
-.navbar-nav{
+
+.navbar-nav {
     font-style: normal;
     font-weight: 350;
     gap: 4px;
 }
 
-.nav-item{
+.nav-item {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.nav-item:hover{
+
+.nav-item:hover {
     transform: translateY(-4px);
 }
 
@@ -140,31 +142,46 @@ nav {
 .project-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.project-card:hover{
+
+.project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
+
 /* Contact section */
-.contact-section{
+.contact-section {
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
-.social-icons .fab{
+.social-icons .fab {
     font-weight: 400;
     font-size: x-large;
     color: #686565;
 }
-.fab:hover{
-   color: rgb(20, 94, 169) 
+
+.fab:hover {
+    color: rgb(20, 94, 169)
 }
-.form-control{
+
+.form-control {
     width: 100%;
-    padding:.375rem .75rem;
+    padding: .375rem .75rem;
 }
-.form .btn{
-    font-family: "Mozilla Text", sans-serif; 
-    margin-top: 14px; 
+
+.form .btn {
+    font-family: "Mozilla Text", sans-serif;
+    margin-top: 14px;
 }
-.form{
+
+.form {
     font-size: 15px;
+}
+
+.btn {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
